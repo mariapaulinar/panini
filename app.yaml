@@ -1,0 +1,13 @@
+application: savvy-bit-590
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+
+- url: /favicon\.ico
+  static_files: public/favicon.ico
+  upload: public/favicon\.ico
+
+- url: /.*
+  script: public/index.php
