@@ -54,8 +54,9 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => '/cloudsql/savvy-bit-590:panini',
+                        'unix_socket' => '/cloudsql/savvy-bit-590:paninicrud',
+			'host'      => '',
+			'database'  => 'paninicrud',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',
